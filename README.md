@@ -20,7 +20,9 @@ digital Identity: Provides tamper-proof, self-sovereign identity verification (e
 | Previous Hash: a8f5...               |
 | Nonce: 2342                          |
 | Merkle Root: b3c1...                 |
-+--------------------------------------+
+|--------------------------------------|
+
+
 2>b>Q>Briefly explain with an example how the Merkle root helps verify data integrity.
 2>b>Ans> Merkle root is a value obtained which contains all the data of transactions of a block which is obtained by repeatedly hashing of transactions, until a sigle root value is generated. For ex: If two transactions (T1, T2) have hashes h1, h2, then the Merkle root is H(h1 + h2). If T2 changes, the root changes—making tampering detectable quickly.
 
