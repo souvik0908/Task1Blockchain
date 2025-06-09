@@ -2,7 +2,7 @@
 
 1 a>Q> Define blockchain in your own words (100–150 words).
  
-1 a>Ans> Blockchain is a decentralized chain of blocks which stores data and can perform transactions with each other. Each block contains a Blockheader and the List of all transactions . The block header contains nonce, merkle tree, previous hash,data and time stamp. BlockChain is maintained by distributed network of nodes which agree to do so because of consensus algorithms like proof of work, proof of stake.etc . What makes blockchain secure and trustless is that it is maintained by a distributed network of nodesThis distributed consensus makes blockchain tamper-resistant,transparent, and ideal for use cases where data immutability and trust are essential.
+1 a>Ans> Blockchain is a decentralized chain of blocks which stores data and can perform transactions with each other. Each block contains a Blockheader and the List of all transactions . The block header contains nonce, merkle root, previous hash,data and time stamp. BlockChain is maintained by distributed network of nodes which agree to do so because of consensus algorithms like proof of work, proof of stake.etc . What makes blockchain secure and trustless is that it is maintained by a distributed network of nodesThis distributed consensus makes blockchain tamper-resistant,transparent, and ideal for use cases where data immutability and trust are essential.
 
 
 1 b>Q>List 2 real-life use cases (e.g., supply chain, digital identity).
@@ -20,7 +20,6 @@ digital Identity: Provides tamper-proof, self-sovereign identity verification (e
 | Previous Hash: a8f5...               |
 | Nonce: 2342                          |
 | Merkle Root: b3c1...                 |
-|--------------------------------------|
 
 
 2>b>Q>Briefly explain with an example how the Merkle root helps verify data integrity.
